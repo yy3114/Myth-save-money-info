@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>存錢迷思小百科｜Myth-save-money-info</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
+        "PingFang TC", "Noto Sans TC", sans-serif;
+      background: #f5f5f7;
+      color: #1f1f1f;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4b8fea, #7c4dff);
+      color: #fff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 0.5rem;
+      font-size: 1.9rem;
+      letter-spacing: 0.08em;
+    }
+
+    header p {
+      margin: 0.2rem 0;
+      font-size: 0.98rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 3rem;
+    }
+
+    .section {
+      background: #fff;
+      border-radius: 16px;
+      padding: 1.5rem 1.3rem;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      margin-bottom: 0.75rem;
+      font-size: 1.25rem;
+    }
+
+    .section p {
+      margin-top: 0.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .tagline {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .download-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0.5rem 0 0.2rem;
+    }
+
+    .download-list li {
+      margin: 0.35rem 0;
+    }
+
+    .btn-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      text-decoration: none;
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      border: 1px solid #dadce0;
+      background: #f8f9ff;
+      color: #1a73e8;
+      transition: background 0.15s ease, transform 0.1s ease,
+        box-shadow 0.15s ease;
+    }
+
+    .btn-link:hover {
+      background: #e8f0ff;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 10px rgba(66, 133, 244, 0.18);
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.76rem;
+      padding: 0.12rem 0.5rem;
+      border-radius: 999px;
+      background: #e8f0fe;
+      color: #1a73e8;
+      margin-left: 0.25rem;
+    }
+
+    .myth-list {
+      padding-left: 1.1rem;
+      margin: 0.4rem 0 0.3rem;
+      font-size: 0.95rem;
+    }
+
+    .myth-list li {
+      margin-bottom: 0.25rem;
+    }
+
+    .note {
+      font-size: 0.85rem;
+      color: #777;
+    }
+
+    .image-wrapper {
+      text-align: center;
+      margin-top: 0.75rem;
+    }
+
+    .image-wrapper img {
+      max-width: 100%;
+      border-radius: 12px;
+      border: 1px solid #eee;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #999;
+      padding: 1.5rem 0 2.5rem;
+    }
+
+    @media (min-width: 768px) {
+      header h1 {
+        font-size: 2.1rem;
+      }
+      .section {
+        padding: 1.75rem 1.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>存錢迷思小百科</h1>
+    <p>Myth-save-money-info</p>
+    <p class="tagline">把「省錢」這件事講清楚，避免省到最後反而賠更多。</p>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>這是什麼？</h2>
+      <p>
+        這個小專案整理各種常見的「省錢迷思」，例如：<br />
+        只看金額、不看價值、為了折扣多買一堆、該投資健康的地方反而不花等等。
+      </p>
+      <p>
+        內容目前以
+        <strong>投影片 / 圖像 / PDF</strong>
+        為主，之後也可以慢慢擴充成一個完整的小型知識庫。
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>快速下載與瀏覽 <span class="badge">Repo 內檔案</span></h2>
+      <p>以下連結都是用相對路徑，放在同一個 repo 裡就能直接打開：</p>
+
+      <ul class="download-list">
+        <li>
+          <a class="btn-link" href="怎麼把你省錢_金額的其實價值.pdf" target="_blank">
+            📄 怎麼把你省錢／金額的其實價值（PDF）
+          </a>
+        </li>
+        <li>
+          <a class="btn-link" href="README.md" target="_blank">
+            📘 README（專案說明）
+          </a>
+        </li>
+        <li>
+          <a class="btn-link" href="省錢想圖.png" target="_blank">
+            🖼 省錢想圖（PNG）
+          </a>
+        </li>
+      </ul>
+
+      <p class="note">
+        如果檔名跟你 repo 裡的實際檔名不完全一樣，記得把上面
+        <code>href=""</code> 裡面的文字改成真正檔名就好。
+      </p>
+
+      <div class="image-wrapper">
+        <img src="省錢想圖.png" alt="省錢迷思示意圖" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>可以怎麼用？</h2>
+      <ul class="myth-list">
+        <li>門診衛教：用手機打開這個網頁，直接給病人看圖＋解說。</li>
+        <li>衛教講座：投影 PDF 或圖片，當成簡報素材。</li>
+        <li>社群貼文：之後可以把每一個迷思拆成單張圖卡，分享到 FB / IG / LINE。</li>
+      </ul>
+      <p class="note">
+        未來如果有新增檔案，只要把新檔名加到上面的「快速下載」區塊，就能一起被 GitHub
+        Pages 呈現。
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Myth-save-money-info · 由作者整理常見省錢迷思資訊 · 以教育與討論為目的使用
+  </footer>
+</body>
+</html>
